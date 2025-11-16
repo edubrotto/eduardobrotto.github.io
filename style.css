@@ -1,0 +1,11 @@
+
+:root{--bg:#f5f7fb;--card:#ffffff;--accent:#2563eb;--text:#1f2937}
+body{margin:0;font-family:Arial;background:var(--bg);color:var(--text)}
+.container{max-width:1000px;margin:auto;padding:20px}
+.hero{background:#1f2937;color:white;padding:60px 20px;text-align:center}
+.card{background:white;padding:20px;margin:20px 0;border-radius:10px;box-shadow:0 2px 14px rgba(0,0,0,0.1)}
+.btn{background:var(--accent);color:white;padding:8px 16px;text-decoration:none;border-radius:6px}
+.btn.alt{background:#555}
+.project-list{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.small{padding:5px 10px;font-size:14px}
+@media(max-width:700px){.project-list{grid-template-columns:1fr}}
